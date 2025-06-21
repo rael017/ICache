@@ -1,0 +1,21 @@
+{
+    "name": "horus/cache",
+    "description": "Um sistema de cache robusto e com múltiplos drivers para aplicações PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Raphael",
+            "email": "raphael.f.s.m07@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Horus\\ICache\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "predis/predis": "^2.0"
+    }
+}
