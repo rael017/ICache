@@ -1,7 +1,7 @@
 <?php
-namespace Horus\ICache;
+namespace Horus\Cache;
 
-class Cache
+class ICache
 {
     private static ?CacheManager $manager = null;
     public static function init(array $config): void { self::$manager = new CacheManager($config); }

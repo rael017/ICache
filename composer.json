@@ -1,5 +1,5 @@
 {
-    "name": "horus/cache",
+    "name": "horus/icache",
     "description": "Um sistema de cache robusto e com múltiplos drivers para aplicações PHP.",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Horus\\ICache\\": "src/"
+            "Horus\\Cache\\": "src/"
         }
     },
     "require": {

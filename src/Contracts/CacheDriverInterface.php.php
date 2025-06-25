@@ -1,5 +1,5 @@
 <?php
-namespace Horus\ICache\Contracts;
+namespace Horus\Cache\Contracts;
 
 interface CacheDriverInterface {
     public function get(string $key, $default = null);

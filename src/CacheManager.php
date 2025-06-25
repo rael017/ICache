@@ -1,6 +1,6 @@
 <?php
-namespace Horus\ICache;
-use Horus\ICache\Contracts\CacheDriverInterface;
+namespace Horus\Cache;
+use Horus\Cache\Contracts\CacheDriverInterface;
 
 class CacheManager
 {

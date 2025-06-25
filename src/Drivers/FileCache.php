@@ -1,6 +1,6 @@
 <?php
-namespace Horus\ICache\Drivers;
-use Horus\ICache\Contracts\CacheDriverInterface;
+namespace Horus\Cache\Drivers;
+use Horus\Cache\Contracts\CacheDriverInterface;
 
 class FileCache implements CacheDriverInterface {
     private string $path;

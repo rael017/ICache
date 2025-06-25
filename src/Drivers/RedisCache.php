@@ -1,7 +1,7 @@
 <?php
-namespace Horus\ICache\Drivers;
+namespace Horus\Cache\Drivers;
 
-use Horus\ICache\Contracts\CacheDriverInterface;
+use Horus\Cache\Contracts\CacheDriverInterface;
 use Predis\Client;
 
 class RedisCache implements CacheDriverInterface
