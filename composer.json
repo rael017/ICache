@@ -1,5 +1,5 @@
 {
-    "name": "horus/icache",
+    "name": "horus/cache",
     "description": "Um sistema de cache robusto e com múltiplos drivers para aplicações PHP.",
     "type": "library",
     "license": "MIT",
